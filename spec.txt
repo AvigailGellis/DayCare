@@ -1,0 +1,93 @@
+/*
+
+Hi, thank you for helping me organize my bussiness.
+
+I own a daycare center and I would like help orgnaizing all of my babies information.
+
+There are many things to keep track of at my daycare. I need to keep track of the baby's name and one parent's name and number. 
+I also need to know the baby's date of birth, this is very important for the caregivers to know!
+Important baby information we need to keep track of is how many oz per feeding and whether they eat solids yet.
+We need to keep track of how long the baby's wake windows are so we know how long they can be up between naps, 
+going along with that we need to know how many naps a day the baby takes.
+We should have a section that lists any important information we should know.
+
+I would like to keep track of the start and end date(if there is one). I do like to keep track of past clients.
+I need to keep track of how much each day costs per baby as different ages cost a different amount.
+Payment method is also very important as I need to keep track of where all the money is.
+
+Q: What are the ages of your daycare?
+A: We accept 6 weeks old until 2 years.
+
+Q: Can one family send multiple children?
+A: Yes but each child must be recorded seperatly and the parent's information should be repeated by each child.
+
+Q: Do you want to keep track of feeding type?
+A: Yes, we need to know if its formula, pumped milk, or solids
+
+Q: Do you want to record exact feeding amounts?
+A: Yes in oz
+
+Q: What are the possible payment methods?
+A: Cash, check, or zelle
+
+Q: What should the wake windows be per age?
+A:  6-12 weeks should be 45-90 minutes
+    3-4 months should be 75-120 minutes
+    5-6 months should be 120-150 minutes
+    7-9 months 150-180 minutes
+    10-12 months 180-240 minutes
+    13-18 months 240-300 minutes
+    19-24 months 170-360 minutes
+
+Q: Should there be a column stating the babies age at the moment?
+A: YES! That would make our lives much easier!
+
+Q: Is it ok if a baby doesn't have any important information to know?
+A: sure, we love happy healthy babies
+
+Q: What is your rate per day?
+A: 0-6 months: $75/day
+    6-12 months: $50/ day
+    12-24 months: $40/day
+
+Reports:
+
+1) Can you please let me know which type of food id the most common? Formula or Pumped milk?
+2) List me this kids in the following format: LastName, Firstname: Age - WakeWindow; OzPerFeeding
+3) List for me the total profit per baby based on their rate/day and assuming 20 days/month (if no end date, count 1 month)
+4) We need a list of how many of each age baby we have: under 3 months is one catagory = newborn, other that each month is a catagory
+
+The columns are as follows:
+BabyName
+LastName
+MomName
+DateOfBirth
+Age
+OzPerFeeding
+TypeOfFood
+WakeWindow
+NumberOfNaps
+ImpInfo
+StartDate
+EndDate
+Rate/Day
+PaymentMethod
+
+Sample Data:
+Avraham, Stein, Shana, 05/03/2025, 5, Formula, 3, null, 07/03/2025, null, zelle
+Aaron, Heyman, Chani, 02/01/2025, 6, Pumped Milk, 2, null, 04/01/2025, null, zelle
+Ahuva, Bitton, Aliza, 04/09/2025, 6, Formula, 3, null, 06/01/2025, null, cash
+Ayala, Silber, Shira, 04/04/2024, 6, Formula and Solids, 2, null, 06/10/2025, null, check
+Chaim, Greenfield, Adina, 09/29/2024, 6, Formula and Solids, 2, Allergic to eggs, 11/30/2024, 6/15/2025, cash
+Moshe, Weiss, Leah, 09/07/2024, 6, Formula and Solids, 2, null, 12/01/2024, null, check
+Yehuda, Methal, Chani, 04/15/2025, 5, Formula, 3, null, 06/14/2025, 8/14/2025, zelle
+Riki, Gelberman, Gali, 06/12/2025, 4, Formula, 3, spits up a lot, 9/01/2025, null, cash
+Rivka, Balsam, Shira, 08/11/2024, 6, Formula and Solids, 1, null, 11/11/2024, null, check
+Layla, Moskowitz, Chaya, 02/01/2023, 6, Pumped Milk and Solids, 1, null, 06/21/2023, 06/21/2024, zelle
+Leba, Silberberg, Esti, 01/20/2023, 6, Pumped Milk and Solids, 1, null, 03/01/2023, 06/21/2024, zelle
+Dassi, Gayer, Adina, 10/09/2022, 6, Formula and Solids, 1, null, 12/01/2022, 06/15/2023, cash
+Perri, Gayer, Adina, 10/09/2022, 6, Formula and Solids, 1, null, 12/01/2022, 06/15/2023, cash
+Ahuva, Balsam, Shira, 06/28/2022, 6, Formula and Solids, 1, null, 09/01/2022, 06/15/2023, cash
+Yomo, Gelberman, Gali, 07/11/2022, 6, Formula and Solids, 1, null, 09/01/2022, 06/15/2023, cash
+Yoni, Moskowitz, Chaya, 06/15/2021, 4, Pumped Milk,  2, null, 09/01/2021, 06/15/2022, zelle
+
